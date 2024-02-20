@@ -2,10 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color:rgb(198, 117, 220);
+    font-weight: bold;
 }
 
 .left-content h1 {
     margin: 0;
+    
 }
 
 .right-content {
@@ -17,6 +20,7 @@
     margin: 0;
     padding: 0;
     display: flex;
+    background-color: rgb(198, 117, 220);
 }
 
 .nav-buttons ul li {
@@ -34,6 +38,7 @@
 #about-me {
     display: flex;
     align-items: center;
+    border-left: 50px;
 }
 
 .section-title {
@@ -41,7 +46,7 @@
 }
 
 .about-me-content {
-    flex: 1;
+    flex: 1; border-left: 50px;
 }
 
 .about-me-content img {
