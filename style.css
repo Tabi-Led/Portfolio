@@ -46,7 +46,8 @@
 }
 
 .about-me-content {
-    flex: 1; border-left: 50px;
+    flex: 1; 
+    border-left: 2px solid black;
 }
 
 .about-me-content img {
@@ -63,8 +64,13 @@
     align-items: center;
 }
 
+.resume-content {
+    border-left: 2px solid black;
+}
+
 .contact-content {
     flex: 1;
+    border-left: 2px solid black;
 }
 
 .contact-content ul {
@@ -79,4 +85,8 @@
 
 .contact-content ul li a {
     display: block;
+}
+
+.work-content {
+    border-left: 2px solid black;
 }
